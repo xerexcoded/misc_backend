@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "open sans";
+  min-height: 100vh;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 100%, 1)'/><path d='M-5 5L5.1 15 15 5l10 10'  stroke-linecap='square' stroke-width='0.5' stroke='hsla(199, 0%, 0%, 0.08)' fill='none'/></pattern></defs><rect width='100%' height='100%' fill='url(%23a)'/></svg>")
+}
+
+.error-404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-404 h1 {
+  font-size: 3rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+  text-transform: uppercase;
+  font-family: montserrat, roboto, "open sans";
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff9632;
+}
+
+.container {
+  text-align: center;
+}
+
+.about-container,
+.contact-container {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container label,
+.contact-container input {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.contact-container input[type="text"],
+.contact-container textarea {
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.contact-container textarea {
+  margin: 15px 0;
+}
+
+.contact-container input[type="submit"] {
+  margin: 15px 0;
+  padding: 10px 15px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 1s ease;
+  font-size: 1.2rem;
+}
+
+.contact-container input[type="submit"]:hover {
+  background-color: #ff9632;
+}
+
+.about-title {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+}
+
+.back {
+  margin: 20px;
+  text-align: center;
+}
